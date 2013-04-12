@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59D4C0561717D90100F016F7 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59D4C0551717D90100F016F7 /* Parse.framework */; };
 		B46C037C17164E75002ADCC4 /* CreateRestaurantController.m in Sources */ = {isa = PBXBuildFile; fileRef = B46C037B17164E75002ADCC4 /* CreateRestaurantController.m */; };
 		B46C037F171650E6002ADCC4 /* CustomTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = B46C037E171650E6002ADCC4 /* CustomTypes.m */; };
 		B46C038317165A5B002ADCC4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46C038217165A5B002ADCC4 /* CoreLocation.framework */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		59D4C0551717D90100F016F7 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		B46C037A17164E75002ADCC4 /* CreateRestaurantController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateRestaurantController.h; sourceTree = "<group>"; };
 		B46C037B17164E75002ADCC4 /* CreateRestaurantController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateRestaurantController.m; sourceTree = "<group>"; };
 		B46C037D171650E6002ADCC4 /* CustomTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTypes.h; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				B4AFEF3C170E51B400AF8334 /* UIKit.framework in Frameworks */,
 				B4AFEF3E170E51B400AF8334 /* Foundation.framework in Frameworks */,
 				B4AFEF40170E51B400AF8334 /* CoreGraphics.framework in Frameworks */,
+				59D4C0561717D90100F016F7 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +140,7 @@
 		B4AFEF3A170E51B400AF8334 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				59D4C0551717D90100F016F7 /* Parse.framework */,
 				B4AFEF3B170E51B400AF8334 /* UIKit.framework */,
 				B4AFEF3D170E51B400AF8334 /* Foundation.framework */,
 				B4AFEF3F170E51B400AF8334 /* CoreGraphics.framework */,
@@ -433,6 +437,10 @@
 		B4AFEF71170E51B400AF8334 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WingMan/WingMan-Prefix.pch";
 				INFOPLIST_FILE = "WingMan/WingMan-Info.plist";
@@ -444,6 +452,10 @@
 		B4AFEF72170E51B400AF8334 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WingMan/WingMan-Prefix.pch";
 				INFOPLIST_FILE = "WingMan/WingMan-Info.plist";
