@@ -7,7 +7,6 @@
 //
 
 #import "AddRestaurantController.h"
-#import "CustomTypes.h"
 
 @interface AddRestaurantController ()
 
@@ -50,6 +49,17 @@ NSMutableArray *restaurants;
 
 -(void)viewWillAppear:(BOOL)animated
 {
+    PFQuery *query = [PFQuery queryWithClassName:@"Restaurant"];
+    [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
+        if (!error) {
+            // The find succeeded.
+            restaurants = [objects mutableCopy];
+            NSLog(@"Successfully retrieved %d restaurants.", objects.count);
+        } else {
+            // Log details of the failure
+            NSLog(@"Error: %@ %@", error, [error userInfo]);
+        }
+    }];
     
 }
 
