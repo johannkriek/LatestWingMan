@@ -11,4 +11,6 @@
 @interface WelcomeController : UIViewController
 - (IBAction)Register:(id)sender;
 - (IBAction)Login:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *loginButton;
+@property (weak, nonatomic) IBOutlet UIButton *registerButton;
 @end

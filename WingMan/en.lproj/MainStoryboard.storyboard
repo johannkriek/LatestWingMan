@@ -60,6 +60,8 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="loginButton" destination="A3i-7C-Np9" id="tr9-Z1-993"/>
+                        <outlet property="registerButton" destination="3SG-DO-Quf" id="Rc7-Hq-nma"/>
                         <segue destination="7e1-P5-wBB" kind="modal" identifier="segWelcomeToRegister" modalTransitionStyle="flipHorizontal" id="ijc-Q8-br4"/>
                         <segue destination="OfU-m1-tTl" kind="modal" identifier="segWelcomeToLogin" modalTransitionStyle="flipHorizontal" id="HSV-gh-909"/>
                     </connections>
@@ -976,6 +978,8 @@
             <relationships>
                 <relationship kind="action" name="Login:"/>
                 <relationship kind="action" name="Register:"/>
+                <relationship kind="outlet" name="loginButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="registerButton" candidateClass="UIButton"/>
             </relationships>
         </class>
     </classes>
