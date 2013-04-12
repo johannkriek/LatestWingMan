@@ -61,6 +61,8 @@ NSMutableArray *restaurants;
         }
     }];
     
+    [_restaurantTable reloadData];
+    
 }
 
 - (void)didReceiveMemoryWarning

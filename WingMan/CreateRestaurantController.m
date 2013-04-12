@@ -103,6 +103,8 @@
                              
                              //Thomas add restaurant to database here
                              
+                             
+                             
                              _RestaurantName.text = @"";
                              _RestaurantAddress.text = @"";
                              _RestaurantWebsite.text = @"";
