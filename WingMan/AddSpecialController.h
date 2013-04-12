@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Parse/Parse.h>
+#import "CustomTypes.h"
 
 @interface AddSpecialController : UITableViewController
 - (IBAction)AddSpecial:(id)sender;

@@ -88,6 +88,19 @@
     
     if (valid)
     {
+        NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+        
+        restaurant *tempRestaurant = [[restaurant alloc] init];
+        tempRestaurant = [defaults objectForKey:@"restaurant"];
+        
+        PFObject *special = [PFObject objectWithClassName:@"Special"];
+        [special setObject:[defaults objectForKey:@"picture"] forKey:@"Picture"];
+        [special setObject:[defaults objectForKey:@"daysofweek"] forKey:@"DayOfTheWeek"];
+        [special setObject:[defaults objectForKey:@"price"] forKey:@"Price"];
+        [special setObject:tempRestaurant.name forKey:@"RestaurantName"];
+        
+        [special save];
+        
         [defaults removeObjectForKey:@"picture"];
         [defaults removeObjectForKey:@"price"];
         [defaults removeObjectForKey:@"restaurant"];

@@ -18,6 +18,7 @@
 		598BD6421717DF550000E11A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598BD6411717DF550000E11A /* AudioToolbox.framework */; };
 		598BD6441717DF620000E11A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598BD6431717DF620000E11A /* MobileCoreServices.framework */; };
 		598BD6461717DF740000E11A /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 598BD6451717DF740000E11A /* libsqlite3.dylib */; };
+		598BD6481717E1460000E11A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598BD6471717E1460000E11A /* Security.framework */; };
 		59D4C0561717D90100F016F7 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59D4C0551717D90100F016F7 /* Parse.framework */; };
 		B46C037C17164E75002ADCC4 /* CreateRestaurantController.m in Sources */ = {isa = PBXBuildFile; fileRef = B46C037B17164E75002ADCC4 /* CreateRestaurantController.m */; };
 		B46C037F171650E6002ADCC4 /* CustomTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = B46C037E171650E6002ADCC4 /* CustomTypes.m */; };
@@ -68,6 +69,7 @@
 		598BD6411717DF550000E11A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		598BD6431717DF620000E11A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		598BD6451717DF740000E11A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		598BD6471717E1460000E11A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		59D4C0551717D90100F016F7 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		B46C037A17164E75002ADCC4 /* CreateRestaurantController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateRestaurantController.h; sourceTree = "<group>"; };
 		B46C037B17164E75002ADCC4 /* CreateRestaurantController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateRestaurantController.m; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				598BD6481717E1460000E11A /* Security.framework in Frameworks */,
 				598BD6461717DF740000E11A /* libsqlite3.dylib in Frameworks */,
 				598BD6441717DF620000E11A /* MobileCoreServices.framework in Frameworks */,
 				598BD6421717DF550000E11A /* AudioToolbox.framework in Frameworks */,
@@ -151,6 +154,7 @@
 		B4AFEF2F170E51B400AF8334 = {
 			isa = PBXGroup;
 			children = (
+				598BD6471717E1460000E11A /* Security.framework */,
 				598BD6451717DF740000E11A /* libsqlite3.dylib */,
 				598BD6431717DF620000E11A /* MobileCoreServices.framework */,
 				598BD6411717DF550000E11A /* AudioToolbox.framework */,
