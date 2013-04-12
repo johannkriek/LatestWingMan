@@ -20,6 +20,7 @@
 		598BD6461717DF740000E11A /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 598BD6451717DF740000E11A /* libsqlite3.dylib */; };
 		598BD6481717E1460000E11A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598BD6471717E1460000E11A /* Security.framework */; };
 		598BD64D1717E2190000E11A /* a-bbq_chicken_wings.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 598BD64C1717E2190000E11A /* a-bbq_chicken_wings.jpg */; };
+		598BD6501717E2B40000E11A /* MapController.m in Sources */ = {isa = PBXBuildFile; fileRef = 598BD64F1717E2B40000E11A /* MapController.m */; };
 		59D4C0561717D90100F016F7 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59D4C0551717D90100F016F7 /* Parse.framework */; };
 		B46C037C17164E75002ADCC4 /* CreateRestaurantController.m in Sources */ = {isa = PBXBuildFile; fileRef = B46C037B17164E75002ADCC4 /* CreateRestaurantController.m */; };
 		B46C037F171650E6002ADCC4 /* CustomTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = B46C037E171650E6002ADCC4 /* CustomTypes.m */; };
@@ -72,6 +73,8 @@
 		598BD6451717DF740000E11A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		598BD6471717E1460000E11A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		598BD64C1717E2190000E11A /* a-bbq_chicken_wings.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "a-bbq_chicken_wings.jpg"; sourceTree = "<group>"; };
+		598BD64E1717E2B40000E11A /* MapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapController.h; sourceTree = "<group>"; };
+		598BD64F1717E2B40000E11A /* MapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapController.m; sourceTree = "<group>"; };
 		59D4C0551717D90100F016F7 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		B46C037A17164E75002ADCC4 /* CreateRestaurantController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateRestaurantController.h; sourceTree = "<group>"; };
 		B46C037B17164E75002ADCC4 /* CreateRestaurantController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateRestaurantController.m; sourceTree = "<group>"; };
@@ -231,6 +234,8 @@
 				B4AFEF56170E51B400AF8334 /* WelcomeController.h */,
 				B4AFEF57170E51B400AF8334 /* WelcomeController.m */,
 				B4AFEF42170E51B400AF8334 /* Supporting Files */,
+				598BD64E1717E2B40000E11A /* MapController.h */,
+				598BD64F1717E2B40000E11A /* MapController.m */,
 			);
 			path = WingMan;
 			sourceTree = "<group>";
@@ -389,6 +394,7 @@
 				B4B2446417123457000F7DCD /* DaysOfWeekController.m in Sources */,
 				B46C037C17164E75002ADCC4 /* CreateRestaurantController.m in Sources */,
 				B46C037F171650E6002ADCC4 /* CustomTypes.m in Sources */,
+				598BD6501717E2B40000E11A /* MapController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
